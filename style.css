@@ -1,0 +1,15 @@
+.btn-blue:hover {
+  background-color: #033fff;
+  transition: .3s;
+}
+.icon {
+  color: #033fff;
+}
+header .navbar .nav-link {
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+header .navbar .nav-link:hover {
+  border: 1px solid #000;
+}
