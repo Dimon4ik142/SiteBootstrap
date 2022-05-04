@@ -36,8 +36,43 @@ header .navbar .nav-link:hover {
   background-color: #033fff;
   color: #fff;
 }
+.courses {
+  background-color: #160d27;
+}
+.courses a {
+  overflow: hidden;
+  border-radius: 30px;
+}
+.courses a > div > .card-img {
+  transition: 0.5s;
+}
+.courses a:hover > div > .card-img {
+  transform: scale(1.9);
+}
+.card-bottom {
+  color: #97c5cf;
+}
+.promo .carousel-inner {
+  width: 500px;
+  margin: 0 auto;
+  height: 520px;
+}
+.courses .wrap {
+  width: 360px;
+}
+.courses .card-img {
+  transform: scale(1.6);
+}
 @media screen and (max-width: 992px) {
   .promo li::before {
     display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .courses .wrap {
+    width: 100%;
+  }
+  .courses .card {
+    height: 330px;
   }
 }
