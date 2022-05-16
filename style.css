@@ -90,6 +90,12 @@ header .navbar .nav-link:hover {
     height: 330px;
   }
 }
+.learning {
+  background-color: #eff4f7;
+}
+.learning .accordion-item {
+  border-radius: 20px;
+}
 @media screen and (max-width: 576px) {
   .promo .carousel-inner {
     width: 320px;
